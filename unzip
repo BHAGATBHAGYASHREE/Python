@@ -1,0 +1,17 @@
+'''tuples = [(6, 'hello'), (2, 'devil'), (3, 'orry')]
+numbers = []
+names = []
+
+for item in tuples:
+    number, name = item
+    numbers.append(number)
+    names.append(name)
+print("Numbers:", numbers)
+print("Names:", names)'''
+list_of_tuples = [(1, 'one'), (2, 'two'), (3, 'three')]
+numbers, names = [], []
+for number, name in list_of_tuples:
+    numbers.append(number)
+    names.append(name)
+print("Numbers:", numbers)
+print("Names:", names)
